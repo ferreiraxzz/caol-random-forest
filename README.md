@@ -119,6 +119,31 @@ Auditoria:  log com hash da entrada e referência da saída
 
 ---
 
+## Como executar o MVP (fase 1)
+
+O MVP é um único notebook: [`notebooks/mvp_caol_random_forest.ipynb`](notebooks/mvp_caol_random_forest.ipynb).
+
+1. Abra o arquivo no [Google Colab](https://colab.research.google.com) (*File → Upload notebook*) ou pelo botão do GitHub.
+2. Rode todas as células (*Runtime → Run all*). Nenhuma instalação extra é necessária (pandas, numpy, scikit-learn e matplotlib já vêm no Colab).
+
+O notebook gera a base simulada (250 registros, `random_state=42`, regras de rejeição documentadas no topo), faz a análise exploratória, treina o Random Forest e o k-NN (k = 5) nos mesmos 5 folds estratificados e mostra a tabela comparativa, a matriz de confusão e a *feature importance*.
+
+### Resultados da primeira execução
+
+Execução local do notebook (scikit-learn 1.9.1; no Colab os valores podem variar levemente), média ± desvio padrão dos 5 folds. A classe positiva é **rejeitado**.
+
+| Modelo | Acurácia | Precisão | Recall | F1 |
+|---|---|---|---|---|
+| Random Forest | 0,628 ± 0,070 | 0,329 ± 0,110 | 0,262 ± 0,060 | 0,282 ± 0,057 |
+| k-NN (k=5) | 0,676 ± 0,027 | 0,267 ± 0,165 | 0,129 ± 0,083 | 0,171 ± 0,107 |
+
+Atributos de maior peso no Random Forest: `quantity_kg`, `haul_days` e `species`.
+
+> **Cuidado ao interpretar:** a base é **simulada**, então estes números **não são comparáveis** ao 0,61 do artigo. A comparação válida é Random Forest x k-NN na nossa base. Os atributos mais importantes refletem as regras que nós mesmos usamos para gerar o rótulo, e com apenas 250 registros a diferença entre os modelos pode não ser significativa. Os resultados devem ser regerados no Colab antes de qualquer conclusão do grupo.
+
+---
+
 ## Status
 
-🚧 Projeto em fase de proposta. A implementação e os resultados serão adicionados nas próximas etapas.
+🚧 **Fase 1 (MVP no Colab):** notebook pronto, aguardando validação do grupo.
+**Fase 2:** migração para `src/` com testes e, opcionalmente, a ferramenta MCP `predict_caol_outcome`. Só começa depois da aprovação dos resultados da fase 1.
