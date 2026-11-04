@@ -11,6 +11,27 @@ Projeto acadêmico de Machine Learning que propõe o uso do algoritmo **Random F
 
 ---
 
+## Resumo da aplicação
+
+A aplicação é um **classificador de apoio à decisão** para pedidos de CAOL. A partir dos dados do pedido (tipo de produto, espécie, método de aquisição, região de origem, quantidade em kg e dias de captura), o modelo estima se o pedido tende a ser **aprovado** ou **rejeitado** e mostra quais atributos mais pesaram. Ele não substitui o analista: a decisão final é sempre humana.
+
+O MVP está em um notebook do Google Colab que gera a base, treina os modelos, compara os resultados e plota os gráficos.
+
+### Modelo utilizado
+
+- **Modelo proposto:** `RandomForestClassifier` (scikit-learn), com `class_weight="balanced"`, 300 árvores e `random_state=42`.
+- **Baseline de comparação:** `KNeighborsClassifier` com k = 5, que reproduz o comportamento do módulo CBR do artigo.
+- **Validação:** validação cruzada estratificada (`StratifiedKFold`, 5 folds), com o mesmo pré-processamento para os dois modelos (`Pipeline` + `ColumnTransformer`: one-hot nos categóricos e `StandardScaler` nos numéricos).
+- **Métricas:** acurácia, precisão, recall e F1, com média e desvio padrão.
+
+### Dados utilizados
+
+A base real do artigo (250 CAOLs anonimizados) **não é pública**, então **não há um banco de dados externo para linkar**. Usamos uma **base simulada**, gerada pelo próprio notebook ([`notebooks/mvp_caol_random_forest.ipynb`](notebooks/mvp_caol_random_forest.ipynb), seção 1) com `random_state=42`, 250 registros e cerca de 30% de rejeitados. Os atributos seguem os descritos no artigo de Casanova et al. (2026), referência 1 da seção 2. As regras usadas para gerar o rótulo estão documentadas no topo do notebook, e o arquivo `caol_synthetic.csv` é criado quando ele é executado.
+
+Nenhum dado real de pedidos, pessoas ou empresas foi usado.
+
+---
+
 ## 1. Objetivo e problema a ser resolvido
 
 ### Contexto
@@ -147,3 +168,9 @@ Atributos de maior peso no Random Forest: `quantity_kg`, `haul_days` e `species`
 
 🚧 **Fase 1 (MVP no Colab):** notebook pronto, aguardando validação do grupo.
 **Fase 2:** migração para `src/` com testes e, opcionalmente, a ferramenta MCP `predict_caol_outcome`. Só começa depois da aprovação dos resultados da fase 1.
+
+---
+
+## Licença
+
+Este projeto está sob a licença **MIT**. Veja o arquivo [LICENSE](LICENSE).
