@@ -1,0 +1,251 @@
+product_type,species,acquisition_method,region,quantity_kg,haul_days,status
+Peixe fresco,Tambaqui,Aquicultura,Centro-Oeste,1836.1,18,rejeitado
+Camarão,Pirarucu,Importação,Sul,615.5,29,rejeitado
+Camarão,Tambaqui,Aquicultura,Sudeste,3922.4,16,rejeitado
+Filé,Tambaqui,Extração,Centro-Oeste,585.5,15,aprovado
+Filé,Sardinha,Extração,Norte,580.2,3,aprovado
+Pescado salgado,Tilápia,Aquicultura,Centro-Oeste,1884.0,6,aprovado
+Peixe fresco,Camarão-rosa,Importação,Centro-Oeste,2351.8,11,rejeitado
+Camarão,Tilápia,Extração,Sudeste,1716.6,12,aprovado
+Peixe congelado,Tambaqui,Extração,Sul,203.2,11,aprovado
+Peixe fresco,Sardinha,Aquicultura,Sudeste,1878.1,12,aprovado
+Filé,Camarão-rosa,Extração,Nordeste,389.8,24,aprovado
+Pescado salgado,Tambaqui,Importação,Sul,1387.5,4,rejeitado
+Camarão,Tambaqui,Extração,Nordeste,264.1,10,aprovado
+Camarão,Atum,Extração,Nordeste,1713.5,5,aprovado
+Camarão,Atum,Importação,Sudeste,489.5,10,rejeitado
+Camarão,Sardinha,Extração,Centro-Oeste,304.1,21,rejeitado
+Filé,Pirarucu,Extração,Nordeste,2239.1,2,rejeitado
+Peixe fresco,Pirarucu,Extração,Sudeste,1396.4,11,rejeitado
+Pescado salgado,Sardinha,Extração,Norte,593.5,1,aprovado
+Filé,Sardinha,Extração,Norte,4680.6,29,rejeitado
+Filé,Tambaqui,Extração,Norte,705.8,22,rejeitado
+Peixe congelado,Tilápia,Extração,Norte,1132.4,8,aprovado
+Peixe fresco,Tilápia,Extração,Centro-Oeste,1435.0,6,aprovado
+Pescado salgado,Atum,Aquicultura,Centro-Oeste,590.1,3,aprovado
+Camarão,Pirarucu,Aquicultura,Centro-Oeste,1756.6,15,aprovado
+Camarão,Pirarucu,Extração,Norte,643.3,23,aprovado
+Filé,Pirarucu,Extração,Norte,726.6,18,rejeitado
+Pescado salgado,Camarão-rosa,Aquicultura,Nordeste,4284.0,27,aprovado
+Filé,Tilápia,Importação,Sudeste,387.4,11,aprovado
+Filé,Tilápia,Importação,Nordeste,98.2,9,aprovado
+Filé,Tambaqui,Extração,Sudeste,5491.4,15,aprovado
+Peixe congelado,Pirarucu,Extração,Norte,14035.3,7,rejeitado
+Peixe fresco,Camarão-rosa,Extração,Sul,731.2,30,rejeitado
+Filé,Pirarucu,Extração,Nordeste,158.1,6,aprovado
+Pescado salgado,Pirarucu,Aquicultura,Norte,803.9,15,aprovado
+Peixe fresco,Atum,Extração,Sul,823.7,16,aprovado
+Pescado salgado,Tilápia,Extração,Centro-Oeste,906.9,2,aprovado
+Pescado salgado,Sardinha,Extração,Norte,360.2,15,rejeitado
+Peixe congelado,Sardinha,Aquicultura,Sudeste,1957.8,14,aprovado
+Camarão,Pirarucu,Extração,Centro-Oeste,1852.9,8,aprovado
+Peixe fresco,Camarão-rosa,Importação,Sul,246.1,4,aprovado
+Camarão,Tambaqui,Extração,Centro-Oeste,2206.6,2,aprovado
+Camarão,Atum,Importação,Sudeste,8541.4,1,aprovado
+Peixe congelado,Tambaqui,Extração,Nordeste,1302.4,15,aprovado
+Peixe fresco,Sardinha,Importação,Sul,782.6,3,aprovado
+Pescado salgado,Sardinha,Importação,Norte,951.5,29,aprovado
+Filé,Atum,Importação,Nordeste,2028.9,8,aprovado
+Pescado salgado,Pirarucu,Importação,Sul,194.3,20,rejeitado
+Camarão,Tambaqui,Aquicultura,Sul,1292.6,21,rejeitado
+Camarão,Tilápia,Aquicultura,Norte,742.1,15,aprovado
+Camarão,Pirarucu,Aquicultura,Sudeste,6959.2,27,aprovado
+Peixe fresco,Camarão-rosa,Extração,Nordeste,921.3,4,aprovado
+Peixe congelado,Tilápia,Aquicultura,Sudeste,5813.2,8,aprovado
+Filé,Atum,Aquicultura,Centro-Oeste,363.7,8,rejeitado
+Filé,Sardinha,Importação,Norte,1972.9,5,rejeitado
+Peixe fresco,Tilápia,Aquicultura,Centro-Oeste,1509.3,9,aprovado
+Filé,Tambaqui,Extração,Sudeste,459.9,10,aprovado
+Peixe fresco,Sardinha,Aquicultura,Sul,1309.5,23,rejeitado
+Camarão,Tambaqui,Extração,Sudeste,3686.8,10,aprovado
+Camarão,Tilápia,Extração,Nordeste,793.3,27,aprovado
+Pescado salgado,Sardinha,Aquicultura,Sul,202.0,24,aprovado
+Camarão,Camarão-rosa,Extração,Sul,1077.5,28,rejeitado
+Peixe congelado,Tilápia,Extração,Norte,444.8,4,rejeitado
+Pescado salgado,Tambaqui,Extração,Sul,778.7,30,aprovado
+Filé,Tambaqui,Extração,Sul,1010.7,19,rejeitado
+Peixe congelado,Sardinha,Extração,Nordeste,199.2,30,aprovado
+Pescado salgado,Camarão-rosa,Extração,Centro-Oeste,218.0,11,aprovado
+Peixe congelado,Camarão-rosa,Aquicultura,Sul,1775.9,29,aprovado
+Peixe fresco,Atum,Extração,Nordeste,650.2,18,rejeitado
+Filé,Camarão-rosa,Importação,Norte,84.4,3,rejeitado
+Camarão,Tambaqui,Importação,Sul,2403.9,13,aprovado
+Peixe fresco,Tilápia,Aquicultura,Nordeste,1440.0,5,aprovado
+Filé,Sardinha,Extração,Sul,537.1,29,aprovado
+Peixe fresco,Atum,Aquicultura,Sudeste,293.9,10,aprovado
+Camarão,Atum,Importação,Sudeste,2529.6,7,aprovado
+Filé,Tambaqui,Aquicultura,Norte,1555.2,17,aprovado
+Peixe congelado,Tambaqui,Importação,Sul,11879.9,13,rejeitado
+Peixe congelado,Tilápia,Aquicultura,Norte,1669.3,3,aprovado
+Filé,Tilápia,Aquicultura,Sudeste,1616.0,25,aprovado
+Camarão,Sardinha,Extração,Centro-Oeste,928.0,26,rejeitado
+Pescado salgado,Sardinha,Aquicultura,Centro-Oeste,2481.9,23,rejeitado
+Filé,Pirarucu,Extração,Centro-Oeste,2049.0,19,aprovado
+Peixe fresco,Tambaqui,Aquicultura,Centro-Oeste,3834.2,13,aprovado
+Pescado salgado,Camarão-rosa,Importação,Sudeste,651.1,17,aprovado
+Camarão,Pirarucu,Extração,Nordeste,709.5,16,aprovado
+Camarão,Camarão-rosa,Aquicultura,Centro-Oeste,679.2,5,aprovado
+Peixe fresco,Atum,Extração,Centro-Oeste,2418.3,3,aprovado
+Peixe congelado,Tambaqui,Aquicultura,Centro-Oeste,4906.8,8,rejeitado
+Camarão,Tambaqui,Extração,Sul,693.1,14,aprovado
+Pescado salgado,Atum,Importação,Norte,717.1,5,rejeitado
+Filé,Sardinha,Extração,Sudeste,1501.3,4,aprovado
+Pescado salgado,Tambaqui,Importação,Sudeste,857.7,26,aprovado
+Pescado salgado,Sardinha,Importação,Centro-Oeste,2841.4,12,aprovado
+Peixe congelado,Sardinha,Aquicultura,Nordeste,115.4,18,aprovado
+Pescado salgado,Atum,Aquicultura,Nordeste,479.8,16,aprovado
+Peixe congelado,Tambaqui,Aquicultura,Norte,501.5,23,rejeitado
+Peixe congelado,Atum,Importação,Centro-Oeste,107.7,23,aprovado
+Camarão,Atum,Extração,Sul,418.4,9,aprovado
+Camarão,Tambaqui,Aquicultura,Norte,439.2,26,aprovado
+Peixe fresco,Tilápia,Extração,Sudeste,896.9,12,aprovado
+Pescado salgado,Sardinha,Aquicultura,Sudeste,3337.5,26,aprovado
+Peixe fresco,Tilápia,Extração,Sudeste,858.3,13,aprovado
+Pescado salgado,Tambaqui,Aquicultura,Centro-Oeste,391.2,4,aprovado
+Peixe fresco,Pirarucu,Aquicultura,Norte,1035.9,23,rejeitado
+Camarão,Atum,Aquicultura,Nordeste,3131.2,1,aprovado
+Camarão,Atum,Aquicultura,Norte,413.2,24,aprovado
+Camarão,Tilápia,Aquicultura,Nordeste,441.2,2,rejeitado
+Camarão,Atum,Aquicultura,Centro-Oeste,1917.1,7,rejeitado
+Filé,Tilápia,Aquicultura,Centro-Oeste,878.7,19,rejeitado
+Camarão,Camarão-rosa,Aquicultura,Norte,2095.4,29,aprovado
+Peixe congelado,Atum,Importação,Sul,1081.8,13,rejeitado
+Camarão,Atum,Extração,Nordeste,2212.0,4,aprovado
+Filé,Tambaqui,Extração,Norte,389.5,7,aprovado
+Filé,Atum,Extração,Nordeste,1083.5,27,aprovado
+Filé,Tilápia,Aquicultura,Norte,888.3,22,aprovado
+Filé,Sardinha,Extração,Sudeste,325.1,4,rejeitado
+Peixe fresco,Pirarucu,Aquicultura,Centro-Oeste,229.6,12,aprovado
+Peixe fresco,Tambaqui,Aquicultura,Sudeste,2177.1,8,aprovado
+Peixe congelado,Tilápia,Extração,Sul,772.0,6,aprovado
+Peixe fresco,Camarão-rosa,Importação,Sudeste,394.5,26,aprovado
+Filé,Pirarucu,Aquicultura,Norte,996.1,19,aprovado
+Camarão,Sardinha,Extração,Norte,3388.1,6,rejeitado
+Camarão,Pirarucu,Extração,Nordeste,112.1,20,aprovado
+Filé,Pirarucu,Extração,Nordeste,245.5,13,aprovado
+Pescado salgado,Atum,Extração,Centro-Oeste,435.8,2,aprovado
+Filé,Tilápia,Extração,Centro-Oeste,4727.6,14,rejeitado
+Peixe fresco,Camarão-rosa,Importação,Centro-Oeste,1454.7,6,aprovado
+Camarão,Camarão-rosa,Extração,Sul,2362.1,8,aprovado
+Filé,Pirarucu,Extração,Sudeste,350.7,27,aprovado
+Camarão,Tambaqui,Aquicultura,Sul,358.0,22,rejeitado
+Filé,Tilápia,Aquicultura,Sudeste,1716.1,5,aprovado
+Filé,Atum,Importação,Sul,1162.4,26,aprovado
+Peixe fresco,Atum,Aquicultura,Sul,1898.3,18,aprovado
+Filé,Tambaqui,Aquicultura,Sul,909.0,27,rejeitado
+Camarão,Tilápia,Extração,Sul,1448.3,23,aprovado
+Peixe congelado,Tilápia,Importação,Norte,1284.5,11,rejeitado
+Camarão,Tilápia,Aquicultura,Sul,2386.9,17,aprovado
+Peixe fresco,Camarão-rosa,Importação,Nordeste,2457.8,16,aprovado
+Peixe congelado,Atum,Extração,Sul,217.1,22,aprovado
+Filé,Tilápia,Importação,Sudeste,115.9,8,aprovado
+Pescado salgado,Camarão-rosa,Aquicultura,Centro-Oeste,2986.2,10,aprovado
+Peixe congelado,Tambaqui,Extração,Nordeste,3596.5,8,rejeitado
+Peixe congelado,Pirarucu,Aquicultura,Centro-Oeste,395.2,9,aprovado
+Filé,Sardinha,Aquicultura,Centro-Oeste,170.7,5,aprovado
+Pescado salgado,Camarão-rosa,Extração,Nordeste,1210.8,2,rejeitado
+Pescado salgado,Atum,Aquicultura,Sudeste,2781.8,29,aprovado
+Peixe fresco,Tilápia,Importação,Sudeste,6618.3,3,aprovado
+Peixe congelado,Tambaqui,Extração,Sul,1837.8,27,rejeitado
+Pescado salgado,Tambaqui,Aquicultura,Sul,756.2,1,aprovado
+Peixe fresco,Tambaqui,Extração,Centro-Oeste,448.9,24,aprovado
+Pescado salgado,Atum,Extração,Nordeste,1109.3,10,aprovado
+Peixe congelado,Camarão-rosa,Importação,Sudeste,813.0,16,aprovado
+Pescado salgado,Tambaqui,Aquicultura,Sudeste,397.4,9,aprovado
+Peixe congelado,Atum,Extração,Centro-Oeste,8507.9,15,aprovado
+Filé,Pirarucu,Importação,Nordeste,6536.6,14,rejeitado
+Camarão,Sardinha,Importação,Sudeste,3415.4,16,aprovado
+Peixe fresco,Pirarucu,Extração,Norte,436.7,12,aprovado
+Filé,Tilápia,Importação,Centro-Oeste,2578.6,17,aprovado
+Filé,Atum,Extração,Nordeste,2079.0,25,aprovado
+Camarão,Tilápia,Importação,Nordeste,1707.1,14,aprovado
+Pescado salgado,Tambaqui,Aquicultura,Sudeste,3826.3,11,aprovado
+Camarão,Tambaqui,Aquicultura,Sudeste,2070.1,4,aprovado
+Filé,Tambaqui,Extração,Centro-Oeste,2298.5,11,aprovado
+Filé,Tilápia,Importação,Sudeste,2073.3,4,aprovado
+Filé,Tilápia,Extração,Sudeste,1541.9,6,aprovado
+Pescado salgado,Camarão-rosa,Extração,Norte,184.3,29,rejeitado
+Peixe congelado,Atum,Extração,Norte,1192.3,3,rejeitado
+Peixe fresco,Tilápia,Aquicultura,Nordeste,628.8,15,aprovado
+Peixe congelado,Tambaqui,Extração,Centro-Oeste,305.0,26,aprovado
+Peixe fresco,Sardinha,Importação,Centro-Oeste,5894.7,29,aprovado
+Peixe fresco,Atum,Aquicultura,Sul,6179.5,5,aprovado
+Peixe fresco,Camarão-rosa,Extração,Sul,4269.4,5,aprovado
+Camarão,Camarão-rosa,Extração,Nordeste,1415.5,12,rejeitado
+Camarão,Sardinha,Extração,Norte,4232.8,17,rejeitado
+Camarão,Pirarucu,Aquicultura,Norte,1109.9,29,rejeitado
+Filé,Tambaqui,Importação,Nordeste,1343.2,7,aprovado
+Camarão,Atum,Extração,Nordeste,367.4,5,rejeitado
+Peixe fresco,Camarão-rosa,Importação,Norte,1631.1,8,aprovado
+Pescado salgado,Tilápia,Extração,Nordeste,1164.9,27,aprovado
+Filé,Camarão-rosa,Importação,Norte,298.1,1,aprovado
+Pescado salgado,Tilápia,Importação,Sul,1041.9,12,rejeitado
+Peixe fresco,Camarão-rosa,Aquicultura,Centro-Oeste,1012.6,4,rejeitado
+Filé,Camarão-rosa,Aquicultura,Sul,6618.1,5,rejeitado
+Camarão,Tilápia,Importação,Sudeste,2681.7,28,rejeitado
+Filé,Pirarucu,Extração,Sudeste,1109.3,1,aprovado
+Filé,Tilápia,Extração,Nordeste,1406.4,10,aprovado
+Peixe fresco,Sardinha,Extração,Norte,1146.2,28,aprovado
+Peixe congelado,Atum,Aquicultura,Sudeste,895.2,19,aprovado
+Peixe congelado,Tilápia,Aquicultura,Sudeste,371.5,3,aprovado
+Peixe congelado,Pirarucu,Aquicultura,Norte,942.9,14,aprovado
+Camarão,Atum,Importação,Sudeste,520.0,30,aprovado
+Camarão,Tambaqui,Extração,Nordeste,314.1,13,aprovado
+Camarão,Tilápia,Aquicultura,Norte,1828.4,16,aprovado
+Peixe congelado,Pirarucu,Extração,Sul,1621.8,16,aprovado
+Pescado salgado,Sardinha,Extração,Sudeste,183.7,20,aprovado
+Peixe fresco,Sardinha,Aquicultura,Sul,970.0,6,rejeitado
+Peixe congelado,Tambaqui,Importação,Sul,2968.2,26,rejeitado
+Peixe fresco,Atum,Aquicultura,Centro-Oeste,3162.8,30,aprovado
+Peixe congelado,Sardinha,Extração,Centro-Oeste,3059.0,5,aprovado
+Pescado salgado,Tambaqui,Aquicultura,Sul,1140.1,25,aprovado
+Peixe congelado,Atum,Extração,Centro-Oeste,471.0,25,aprovado
+Pescado salgado,Atum,Importação,Sudeste,371.0,23,aprovado
+Filé,Pirarucu,Aquicultura,Centro-Oeste,1547.8,12,aprovado
+Camarão,Tilápia,Extração,Sul,1602.4,15,aprovado
+Filé,Sardinha,Extração,Sul,3973.2,26,aprovado
+Peixe congelado,Sardinha,Extração,Centro-Oeste,3294.4,5,aprovado
+Camarão,Tilápia,Importação,Sudeste,960.8,25,aprovado
+Pescado salgado,Sardinha,Aquicultura,Sul,316.0,28,rejeitado
+Peixe congelado,Atum,Aquicultura,Nordeste,797.0,21,aprovado
+Camarão,Tilápia,Aquicultura,Centro-Oeste,1362.7,11,rejeitado
+Peixe congelado,Camarão-rosa,Aquicultura,Sul,896.0,17,aprovado
+Camarão,Tilápia,Extração,Sul,615.3,2,aprovado
+Camarão,Camarão-rosa,Importação,Sudeste,1412.2,28,rejeitado
+Filé,Pirarucu,Extração,Centro-Oeste,662.5,11,aprovado
+Camarão,Tilápia,Aquicultura,Norte,585.2,2,aprovado
+Peixe congelado,Atum,Aquicultura,Norte,1497.4,24,aprovado
+Peixe fresco,Tilápia,Aquicultura,Sudeste,733.6,20,rejeitado
+Peixe fresco,Sardinha,Importação,Sul,1399.8,19,aprovado
+Filé,Tambaqui,Extração,Centro-Oeste,1441.2,2,aprovado
+Pescado salgado,Atum,Aquicultura,Sudeste,350.9,23,aprovado
+Peixe fresco,Camarão-rosa,Extração,Sul,677.7,20,rejeitado
+Filé,Camarão-rosa,Aquicultura,Sudeste,4618.3,24,rejeitado
+Camarão,Pirarucu,Extração,Centro-Oeste,343.1,25,aprovado
+Peixe congelado,Pirarucu,Extração,Sul,132.1,7,aprovado
+Camarão,Sardinha,Extração,Sudeste,170.4,7,aprovado
+Peixe congelado,Camarão-rosa,Extração,Centro-Oeste,1129.0,28,rejeitado
+Pescado salgado,Atum,Extração,Norte,1131.1,16,aprovado
+Filé,Tilápia,Aquicultura,Centro-Oeste,975.0,14,aprovado
+Filé,Sardinha,Aquicultura,Norte,3693.0,9,aprovado
+Peixe fresco,Tilápia,Extração,Nordeste,75.7,20,aprovado
+Filé,Tambaqui,Extração,Centro-Oeste,1629.3,23,rejeitado
+Pescado salgado,Camarão-rosa,Extração,Sul,5226.2,1,aprovado
+Peixe fresco,Tambaqui,Aquicultura,Centro-Oeste,355.0,17,aprovado
+Camarão,Camarão-rosa,Extração,Sul,750.1,30,aprovado
+Filé,Pirarucu,Extração,Sul,516.5,9,rejeitado
+Camarão,Tambaqui,Extração,Nordeste,448.4,9,aprovado
+Camarão,Pirarucu,Aquicultura,Norte,791.3,27,aprovado
+Filé,Sardinha,Extração,Norte,4571.0,2,aprovado
+Peixe congelado,Camarão-rosa,Aquicultura,Nordeste,6887.0,12,rejeitado
+Camarão,Sardinha,Aquicultura,Norte,783.7,14,aprovado
+Peixe fresco,Atum,Aquicultura,Sudeste,7369.2,24,aprovado
+Filé,Atum,Aquicultura,Sul,1136.3,4,aprovado
+Peixe fresco,Camarão-rosa,Aquicultura,Centro-Oeste,6334.0,14,aprovado
+Camarão,Sardinha,Extração,Sudeste,998.9,5,aprovado
+Camarão,Tambaqui,Aquicultura,Centro-Oeste,1250.2,24,aprovado
+Peixe fresco,Pirarucu,Aquicultura,Centro-Oeste,1580.5,19,aprovado
+Camarão,Tilápia,Extração,Centro-Oeste,26340.3,15,aprovado
+Filé,Pirarucu,Aquicultura,Sudeste,2569.0,12,aprovado
+Camarão,Atum,Extração,Nordeste,540.6,5,rejeitado
+Peixe fresco,Pirarucu,Aquicultura,Centro-Oeste,2890.0,28,aprovado

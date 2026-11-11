@@ -2,6 +2,8 @@
 
 Projeto acadêmico de Machine Learning que propõe o uso do algoritmo **Random Forest** para prever a aprovação ou rejeição de pedidos de **CAOL** (Certificado de Acreditação de Origem Legal), complementando a arquitetura de agente inteligente com **MCP**, **RAG** e **CBR** apresentada por Casanova et al. (2026).
 
+**Disciplina:** Aprendizado de Máquina – Prof. Bruno Zolotareff dos Santos
+
 **Curso:** Desenvolvimento de Software Multiplataforma – FATEC Mauá
 
 **Integrantes:**
@@ -26,9 +28,13 @@ O MVP está em um notebook do Google Colab que gera a base, treina os modelos, c
 
 ### Dados utilizados
 
-A base real do artigo (250 CAOLs anonimizados) **não é pública**, então **não há um banco de dados externo para linkar**. Usamos uma **base simulada**, gerada pelo próprio notebook ([`notebooks/mvp_caol_random_forest.ipynb`](notebooks/mvp_caol_random_forest.ipynb), seção 1) com `random_state=42`, 250 registros e cerca de 30% de rejeitados. Os atributos seguem os descritos no artigo de Casanova et al. (2026), referência 1 da seção 2. As regras usadas para gerar o rótulo estão documentadas no topo do notebook, e o arquivo `caol_synthetic.csv` é criado quando ele é executado.
+A base real do artigo (250 CAOLs anonimizados) **não é pública**: não há banco de dados aberto com os despachos de aprovação e rejeição do CAOL. Por isso usamos uma **base simulada**, gerada pelo notebook ([`notebooks/mvp_caol_random_forest.ipynb`](notebooks/mvp_caol_random_forest.ipynb), seção 1) com `random_state=42`, 250 registros e cerca de 30% de rejeitados. O arquivo gerado está versionado em [`data/caol_synthetic.csv`](data/caol_synthetic.csv).
 
-Nenhum dado real de pedidos, pessoas ou empresas foi usado.
+Os atributos seguem os descritos no artigo de Casanova et al. (2026), referência 1 da seção 2. As regras usadas para gerar o rótulo estão documentadas no topo do notebook. Nenhum dado real de pedidos, pessoas ou empresas foi usado.
+
+**Fontes oficiais consultadas sobre o CAOL:**
+- [Certificado de Acreditação de Origem Legal (CAOL) – Ministério da Pesca e Aquicultura](https://www.gov.br/mpa/pt-br/assuntos/pesca-amadora-e-esportiva/certificacoes/certificacao-de-origem/certificado-de-acreditacao-de-origem-legal)
+- [Dados Abertos – Ministério da Pesca e Aquicultura](https://www.gov.br/mpa/pt-br/acesso-a-informacao/dados-abertos-2)
 
 ---
 
@@ -145,7 +151,16 @@ Auditoria:  log com hash da entrada e referência da saída
 O MVP é um único notebook: [`notebooks/mvp_caol_random_forest.ipynb`](notebooks/mvp_caol_random_forest.ipynb).
 
 1. Abra o arquivo no [Google Colab](https://colab.research.google.com) (*File → Upload notebook*) ou pelo botão do GitHub.
-2. Rode todas as células (*Runtime → Run all*). Nenhuma instalação extra é necessária (pandas, numpy, scikit-learn e matplotlib já vêm no Colab).
+2. Rode todas as células (*Runtime → Run all*). Nenhuma instalação extra é necessária no Colab.
+
+Para rodar localmente:
+
+```bash
+git clone https://github.com/ferreiraxzz/caol-random-forest.git
+cd caol-random-forest
+pip install -r requirements.txt
+jupyter notebook notebooks/mvp_caol_random_forest.ipynb
+```
 
 O notebook gera a base simulada (250 registros, `random_state=42`, regras de rejeição documentadas no topo), faz a análise exploratória, treina o Random Forest e o k-NN (k = 5) nos mesmos 5 folds estratificados e mostra a tabela comparativa, a matriz de confusão e a *feature importance*.
 
